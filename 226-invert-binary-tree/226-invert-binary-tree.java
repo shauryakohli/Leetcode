@@ -21,7 +21,7 @@ class Solution {
         }
           invertTree(root.left);
           TreeNode temp=root.left;
-            temp=root.left;
+            // temp=root.left;
             root.left=root.right;
             root.right=temp;
            invertTree(root.left);
